@@ -159,7 +159,7 @@ async function getElements() {
     const lastUpdated = document.getElementById("lastUpdated");
 
     // Sample JSON data
-    const api = await fetch("https://timboce.github.io/Girraphic/Input/MarathonResults.json")
+    const api = await fetch("https://timboce.github.io/MediaInformationSystem/Input/MarathonResults.json")
     // Hold result in a constans 
     const apiResp = await api.json();
     // Update infos
